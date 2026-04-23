@@ -22,7 +22,7 @@ The performance gap is much smaller for read operations.
 
 ## Key Observations
 
-![Write Performance](week2/graphs/image1.png)
+![Write Performance](HPQC/week2/graphs/image1.png)
 
 Write operations show significant performance difference.
 
