@@ -4,12 +4,12 @@
 ## All programs were developed and tested using Ubuntu (WSL).
 
 
-# Compile C Programs
+# 1. Compile C Programs
 
 gcc time_write_c.c -o time_write_c
 gcc time_read_c.c -o time_read_c
 
-# Run Write Tests
+# 2. Run Write Tests
 
 Python:
 
@@ -23,7 +23,7 @@ C:
 
 Replace 10000 with other values such as 1000 or 20000 to test different input sizes.
 
-# Run Read Tests
+# 3. Run Read Tests
 
 Python:
 
