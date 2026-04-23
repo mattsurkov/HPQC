@@ -17,9 +17,12 @@ C consistently performs approximately 4–5 times faster for write operations.
 | 20,000     | 2.5e-4          | 1.6e-4     | ~1.5× faster       |
 
 
+
 The performance gap is much smaller for read operations.
 
 ## Key Observations
+
+![Write Performance](week2/graphs/image1.png)
 
 Write operations show significant performance difference.
 
@@ -33,3 +36,4 @@ C demonstrates consistently lower execution time.
 C consistently demonstrates superior performance due to compilation into native machine code and reduced runtime overhead. Python, while slower in execution, offers advantages in simplicity, readability, and development speed.
 
 The results confirm that C is more suitable for performance-critical applications involving large-scale computation or repeated file operations. However, Python remains effective for rapid development and general-purpose programming where maximum performance is not essential.
+

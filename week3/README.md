@@ -19,3 +19,4 @@ The goal is to understand distributed memory parallelism, message passing, and p
 MPI provides significant performance improvements for large-scale problems, but efficiency is limited by communication overhead and hardware constraints.
 
 For small workloads, parallelisation may not provide benefits. For larger datasets, MPI enables clear performance gains through workload distribution.
+
