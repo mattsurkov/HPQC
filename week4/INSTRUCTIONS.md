@@ -39,7 +39,9 @@ mpirun -np 2 bin/pingpong_bandwidth 10000 1000000
 ```
 
 First argument = number of ping-pong iterations
+
 Second argument = message size in bytes.
+
 These tests measure how communication performance changes with message size.
 ### Measure Execution Time
 ```bash

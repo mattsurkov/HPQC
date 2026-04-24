@@ -13,7 +13,9 @@
 
 ## Observation
 Average time decreases and stabilises as iterations increase
+
 Stable latency ≈ 5 × 10⁻⁷ seconds. 
+
 Total time increases linearly with number of pings
 ## Bandwidth Results (Array Transfer)
 Message Size (B) | Avg Time (s) | Bandwidth (B/s)
