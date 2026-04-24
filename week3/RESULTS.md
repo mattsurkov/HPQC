@@ -1,4 +1,4 @@
-# RESULTS - MPI Vector vs Serial Comparison
+# RESULTS - Topic 3: MPI Introduction
 
 ## MPI Hello World Performance
 | Input Size | Real Time (s) | User Time (s) | Sys Time (s) |
@@ -25,19 +25,23 @@
 | 100,000,000,000 | 0.735    | 0.482    | 0.326   |
 
 
-## Key Comparison Insights
-MPI vs Serial Scaling
+##  Comparison Insights
+### MPI vs Serial Scaling
+
+![Write Performance](graphs/image2.png)
+Graph showing the stage where serial becomes slower at completing task
+
 MPI remains relatively stable across input sizes (~0.086–0.107s)
 Serial execution grows significantly with input size
 MPI clearly outperforms serial for large datasets
 Serial is faster only for very small inputs (≤10,000)
-## Performance Summary
+### Performance Summary
 Input Size Range	Faster Method	Reason
 Small (≤10,000)	Serial	No communication overhead
 Medium (100k)	MPI	Parallel workload benefit begins
 Large (100M+)	MPI	Strong scalability advantage
 Very large (100B)	MPI	Serial becomes impractical
-## Key Observations
+##  Observations
 MPI reduces runtime variability across input sizes
 Serial execution scales poorly with large datasets
 Communication overhead in MPI is hidden at large scale

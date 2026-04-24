@@ -1,4 +1,4 @@
-# README - Topic 3: Introduction to MPI
+# README - Topic 3: MPI Introduction
 
 This repository explores MPI (Message Passing Interface) using C. It includes a basic Hello World MPI program, analysis of proof.c, and a parallel vector addition implementation.
 
