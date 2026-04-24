@@ -1,5 +1,8 @@
 # PHY1090 High Performance and Quantum Computing
 
+This is Matt's repository. Enjoy. 
+
+
 Code excerpts and instructions to accompany the PHY1090 course at Dublin City University (DCU)
 (c) Oisín Creaner/School of Physical Sciences Dublin City University, 2025
 
@@ -16,4 +19,3 @@ Each week's class has its own directory, and code is stored within those.
 
 Code that is indended for student use will be shown on the `main` branch.  Development branches will be used as further content is added
 
-        
